@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ff4081;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .unit-option {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .unit-option label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .unit-option .discount {
+    background-color: #ff4081;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  
+  .unit-option .price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .unit-option .original-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  .most-popular {
+    border-color: #ff4081;
+  }
+  
+  .most-popular-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #ff4081;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+  
+  .select-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .select-options .item-option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .select-options label {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  select {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  
+  .free-delivery {
+    color: #ff4081;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  footer {
+    font-size: 10px;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
